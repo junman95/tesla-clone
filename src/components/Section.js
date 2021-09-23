@@ -27,7 +27,7 @@ function Section({
         </Buttons>
       </Fade>
       <Fade left>
-        <div style={{fontSize:"50px",fontWeight:"500"}}> 이 거 사 조 !</div>
+        <div style={{fontSize:"50px",fontWeight:"500"}}> 이 거 사 조 !abc</div>
       </Fade>
     </Wrap>
   );
