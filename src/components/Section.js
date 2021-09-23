@@ -23,11 +23,15 @@ function Section({
             <LeftButton>{leftBtnText}</LeftButton>
             {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
           </ButtonGroup>
-          <DownArrow src="/images/down-arrow.svg" />
+          <DownArrow src="/down-arrow.svg" />
         </Buttons>
       </Fade>
       <Fade left>
+<<<<<<< HEAD
         <div style={{fontSize:"50px",fontWeight:"500"}}> 이 거 사 조 !</div>
+=======
+        <div style={{fontSize:"100px"}}> 이 거 사 조 !</div>
+>>>>>>> 24285e94ded5c88a5f400a2feaf2d76486f97755
       </Fade>
     </Wrap>
   );
@@ -42,7 +46,7 @@ const Wrap = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: ${({ bgImage }) => `url("/images/${bgImage}")`};
+  background-image: ${({ bgImage }) => `url("/${bgImage}")`};
   display: flex;
   flex-direction: column;
   justify-content: space-between; //vertical alignment
