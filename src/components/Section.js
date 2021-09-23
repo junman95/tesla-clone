@@ -42,7 +42,7 @@ const Wrap = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: ${({ bgImage }) => `url("/${bgImage}")`};
+  background-image: ${({ bgImage }) => `url("${bgImage}")`};
   display: flex;
   flex-direction: column;
   justify-content: space-between; //vertical alignment
