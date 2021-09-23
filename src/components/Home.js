@@ -50,7 +50,7 @@ function Home() {
       <Section
         title="Accessories"
         description="Produce Clean Energy From Your Roof"
-        backgroundImg="solar-roof.jpg"
+        backgroundImg="accessories.jpg"
         leftBtnText="Shop Now"
       />
     </Container>

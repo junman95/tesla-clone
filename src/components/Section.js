@@ -26,6 +26,9 @@ function Section({
           <DownArrow src="/images/down-arrow.svg" />
         </Buttons>
       </Fade>
+      <Fade left>
+        <div style={{fontSize:"100px"}}> 이 거 사 조 ! HJ</div>
+      </Fade>
     </Wrap>
   );
 }
