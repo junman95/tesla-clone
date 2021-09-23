@@ -23,11 +23,11 @@ function Section({
             <LeftButton>{leftBtnText}</LeftButton>
             {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
           </ButtonGroup>
-          <DownArrow src="/down-arrow.svg" />
+          <DownArrow src="down-arrow.svg" />
         </Buttons>
       </Fade>
       <Fade left>
-        <div style={{fontSize:"50px",fontWeight:"500"}}> 이 거 사 조 !abc</div>
+        <div style={{fontSize:"50px",fontWeight:"500"}}> 이 거 사 조 !이현지!</div>
       </Fade>
     </Wrap>
   );
